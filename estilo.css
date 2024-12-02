@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222b31 !important;
+}
+
+.top-bar {
+    background-color: #6c0102;
+    height: 35px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #222b31;
+    height: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.logo img {
+    height: 100px;
+    margin-right: 20px;
+    padding: 0px 20px 20px;
+    padding-top: 5px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #464646;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cart {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.3s;
+}
+
+.cart:hover {
+    color: #464646;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search input {
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.search button {
+    background: none;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.register {
+    background-color: white;
+    border: none;
+    border-radius: 5%;
+    padding: 5px 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register:hover {
+    background-color: #464646;
+    color: white;
+}
+
+.carousel {
+    max-height: 650px;
+    overflow: hidden;
+    /* Impede o conteúdo de ultrapassar o limite */
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    /* Faz a imagem cobrir a area sem ficar distorcido*/
+    height: 100%;
+}
+
+.imagens-thumbnail {
+    height: 400px;
+    display: inline;
+}
+
+footer {
+    background-color: #55666E;
+    width: 100%;
+}
+
+.footer {
+    list-style: none;
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 10%;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    padding-top: 80px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.icones-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 0 550px;
+    padding-bottom: 50px;
+}
+
+.container {
+    color: white;
+    margin: 20px;
+    display: inline-flex;
+}
+
+#desclivro {
+    margin: 150px;
+}
+
+#desclivro h1 {
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+#desclivro p {
+    padding-bottom: 50px;
+}
+
+#desclivro h2 {
+    padding-bottom: 50px;
+}
+
+#desclivro i {
+    padding-bottom: 50px;
+}
+
+#desclivro button {
+    height: 70px;
+    width: 200px;
+    font-size: 18px;
+    margin-left: 400px
+}
+
+texto {
+    color: #FBC902;
+    font-size: 20px;
+}
